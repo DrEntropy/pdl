@@ -9,6 +9,14 @@ conda install -c fastai fastai
 conda install -c fastai nbdev
 ```
 
-This is CPU only afaik, which suits me just fine. If you want gpu you need to do pytorch seperately
+This is CPU only, which suits me just fine. 
+
+I alos have pdl_gpu which has gpu installed: 
+```
+conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 
+conda install jupyter
+conda install -c fastai fastai
+
+```
  
 Note make sure to update / upgrade with conda before doing this . 
