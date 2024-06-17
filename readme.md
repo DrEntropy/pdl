@@ -7,6 +7,7 @@ So far installed is:
 conda install jupyter
 conda install -c fastai fastai
 conda install -c fastai nbdev
+conda install gradio
 ```
 
 This is CPU only, which suits me just fine. 
