@@ -1,0 +1,11 @@
+name: pdl_p
+channels:
+  - fastai
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyter
+  - fastai
+  - nbdev
+  - gradio
+
