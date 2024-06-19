@@ -15,7 +15,7 @@ Or
 
 ```
 conda env create -f environment.yml
-
+```
 
 For my testing, I also have an enviroment named pdl_gpu which was created like this:
 ```
