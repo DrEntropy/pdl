@@ -8,4 +8,5 @@ dependencies:
   - fastai
   - nbdev
   - gradio
+  - python-graphviz
 
