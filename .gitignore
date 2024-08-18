@@ -1,3 +1,4 @@
 model.pkl
 .ipynb_checkpoints/
 data/MNIST/raw
+.DS_Store
