@@ -26,3 +26,6 @@ conda install -c fastai fastai
 This is not portable, and the particular version of cuda you need may vary. (Use `nvidia-smi`)
  
 Note make sure to update / upgrade with conda before doing this . 
+
+## Note on part 2
+For part two, I need more compute, so I will be using Paperspace Gradient. I used a 'start from scratch' notebook.
