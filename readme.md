@@ -30,4 +30,4 @@ Note make sure to update / upgrade with conda before doing this .
 ## Note on part 2
 For part two, I need more compute, so I will be using Paperspace Gradient. I used a 'start from scratch' notebook. To setup I created a simple notebook that does  
 `!pip install -Uq diffusers transformers fastcore`
-And can do the huggingspace login if needed
+And can do the huggingspace login if needed but not sure when it is needed, I did not seem to need it for lesson 9.
