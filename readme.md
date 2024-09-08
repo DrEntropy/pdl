@@ -17,7 +17,7 @@ Or
 conda env create -f environment.yml
 ```
 
-For my testing, I also have an enviroment named pdl_gpu which was created like this:
+For my testing (on WSL2), I also have an enviroment named pdl_gpu which was created like this:
 ```
 conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 
 conda install jupyter
@@ -31,3 +31,8 @@ Note make sure to update / upgrade with conda before doing this .
 For part two, I need more compute, so I will be using Paperspace Gradient. I used a 'start from scratch' notebook. To setup I created a simple notebook that does  
 `!pip install -Uq diffusers transformers fastcore`
 And can do the huggingspace login if needed but not sure when it is needed, I did not seem to need it for lesson 9.
+
+
+For working locally with minai I also create a pyproject.toml so that one can do `pip install -e .` to install the library. 
+
+ 

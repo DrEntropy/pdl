@@ -2,3 +2,10 @@ model.pkl
 .ipynb_checkpoints/
 data/MNIST/raw
 .DS_Store
+
+# egg-info
+*.egg-info/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
