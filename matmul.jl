@@ -16,7 +16,7 @@ C ::Matrix{Float64} = zeros(10, 10)
 # Time the multiplication of the two matrices using three nested loops
 using BenchmarkTools
 
-# In python this took 500 ms on my macbook 
+# In python this took 20 ms on my macbook 
 
 @btime begin
       for i in 1:size(A, 1)  # Loop over the rows of A
