@@ -16,6 +16,8 @@ Or
 ```
 conda env create -f environment.yml
 ```
+(The environment.yml file installs also numba and graphviz, that are used sparingly)
+ 
 
 For my testing (on WSL2), I also have an enviroment named pdl_gpu which was created like this:
 ```
@@ -28,7 +30,7 @@ This is not portable, and the particular version of cuda you need may vary. (Use
 Note make sure to update / upgrade with conda before doing this . 
 
 ## Note on part 2
-For part two, I need more compute, so I will be using Paperspace Gradient. I used a 'start from scratch' notebook. To setup I created a simple notebook that does  
+For part two, I sometimes need more compute, so I will be using Paperspace Gradient. I used a 'start from scratch' notebook. To setup I created a simple notebook that does  
 `!pip install -Uq diffusers transformers fastcore`
 And can do the huggingspace login if needed but not sure when it is needed, I did not seem to need it for lesson 9.
 
