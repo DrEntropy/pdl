@@ -10,4 +10,10 @@ dependencies:
   - gradio
   - python-graphviz
   - numba
+  - pip
+  - pip:
+    - fastcore
+    - transformers
+    - diffusers
+    - -e .
 
