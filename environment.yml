@@ -15,5 +15,6 @@ dependencies:
     - fastcore
     - transformers
     - diffusers
+    - datasets
     - -e .
 
