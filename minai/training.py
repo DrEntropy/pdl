@@ -6,6 +6,9 @@ from torch import tensor,nn
 import torch.nn.functional as F
 from torch.utils.data import DataLoader, SequentialSampler, RandomSampler, BatchSampler
 
+
+__all__ = ['accuracy', 'report', 'Dataset', 'fit', 'get_dls']
+
 def accuracy(out, yb): return (out.argmax(dim=1)==yb).float().mean()
 def report(loss, preds, yb): print(f'{loss:.2f}, {accuracy(preds, yb):.2f}')
 

@@ -16,5 +16,6 @@ dependencies:
     - transformers
     - diffusers
     - datasets
+    - torcheval
     - -e .
 
