@@ -17,5 +17,6 @@ dependencies:
     - diffusers
     - datasets
     - torcheval
+    - timm
     - -e .
 
