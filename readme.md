@@ -17,14 +17,11 @@ Or
 conda env create -f environment.yml
 ```
 (The environment.yml file installs also numba and graphviz, that are used sparingly)
- 
 
-For my testing (on WSL2), I also have an enviroment named pdl_gpu which was created like this:
-```
-conda install pytorch torchvision torchaudio pytorch-cuda=12.1 -c pytorch -c nvidia 
-conda install jupyter
-conda install -c fastai fastai
-```
+
+
+For my testing (on WSL2), I also have an enviroment named pdl_gpu which was created like this which uses environmengpu.yml
+ 
 This is not portable, and the particular version of cuda you need may vary. (Use `nvidia-smi`)
  
 Note make sure to update / upgrade with conda before doing this . 

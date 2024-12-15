@@ -1,9 +1,15 @@
-name: pdl_p
+name: pdl_gpu
 channels:
+  - pytorch
+  - nvidia
   - fastai
   - conda-forge
   - defaults
 dependencies:
+  - pytorch
+  - torchvision
+  - torchaudio
+  - pytorch-cuda=12.1
   - jupyter
   - fastai
   - nbdev
