@@ -34,4 +34,9 @@ And can do the huggingspace login if needed but not sure when it is needed, I di
 
 For working locally with minai I also create a pyproject.toml so that one can do `pip install -e .` to install the library. 
 
+- Note that conda is not available on paperspace (at least not in the docker container i have found so far) so one has to use pip. I added dependances to pyproject, so one should be able to clone the repo, then do :
+
+```
+pip install -e .
+```
  

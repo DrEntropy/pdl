@@ -21,9 +21,7 @@ dependencies:
     - fastcore
     - transformers
     - diffusers
-    - datasets
-    - torcheval
     - timm
     - accelerate
-    - -e .
+    - -e . 
 

@@ -16,3 +16,4 @@ data/*gz
 models/
 #binaries
 *.out
+*.pth

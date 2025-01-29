@@ -5,6 +5,12 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "minai" 
 version = "0.1"
+dependencies = [
+    "fastai",
+    "torcheval",
+    "einops",
+    "datasets>=3.2"
+]
 
 [tool.setuptools]
 packages = ["minai"] 
